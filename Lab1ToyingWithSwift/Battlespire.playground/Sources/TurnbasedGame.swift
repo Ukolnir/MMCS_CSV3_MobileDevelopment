@@ -1,8 +1,8 @@
 import Foundation
 
 public protocol TurnbasedGame: Game {
-    var turns: Int { get }
     var hasEnded: Bool { get }
+    var Rounds: Int { get }
     func start()
     func makeTurn()
     func end()
